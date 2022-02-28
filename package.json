@@ -1,0 +1,35 @@
+{
+  "name": "localstack-with-dynamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "local": "nodemon --inspect=0.0.0.0:9229 src/index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiriamNM/localstack-with-dynamo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiriamNM/localstack-with-dynamo/issues"
+  },
+  "homepage": "https://github.com/MiriamNM/localstack-with-dynamo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1068.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "swagger-ui-express": "^4.3.0",
+    "xid-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
